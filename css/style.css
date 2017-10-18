@@ -1,0 +1,245 @@
+h1, h2, h3, h4, h5 {
+	color:rgba(139,142,144,1); 
+	margin-top:5px; 
+	text-shadow:0 0 1px rgba(54,60,67,0.9);
+	font-weight:normal !important; 
+	font-family:Vegur, 'PT Sans', Verdana, Sans-serif;
+} 
+h1 i, h2 i, h3 i, h4 i, h5 i {
+	margin-right:7px;
+}
+h3{
+	font-size: 22px;
+}
+
+/*Inicio del Formulario de Registro*/
+.form-reg{
+	overflow:hidden;
+	margin:0 auto;
+	background: rgba(31,37,44,0.9);
+	border-top:2px solid rgb(179,182,186);
+	border-left:2px solid rgb(167,169,172);
+	border-bottom:2px solid rgb(167,169,172);
+	border-right:2px solid rgb(167,169,172);
+	box-shadow:0 0 10px rgb(167,169,172);
+	min-width:40%;
+	max-width:55%;
+	padding:120px 30px 30px;
+
+}
+
+.form-reg h3 {
+	margin-bottom:25px;
+}
+
+#h3-border{
+	border-bottom: 1px solid rgb(139,142,144);
+	padding: 3px 2px;
+}
+
+.reg-let,.reg-rob{
+	color:rgba(139,142,144,1); 
+	font-weight:normal !important; 
+	font-family:Vegur, 'PT Sans', Verdana, Sans-serif;
+	margin: 0px;
+}
+
+td{
+	padding-left: 3px;
+	padding-bottom: 4px;
+	margin:0 auto;
+	padding-top: 5px;
+}
+input[type=checkbox]{
+	width: 15px;
+	height: 15px;
+	padding-left: 7px;
+}
+input{
+	background: rgba(31,37,44,0.9);
+	border: 1px solid rgb(124,100,44);
+	height: 25px;
+	padding-left:7px;
+	border-radius: 2px;
+	margin: 0px -1px;
+	font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
+	font-size: 13px;
+	color: rgba(167,172,178,0.7);
+}
+
+input::-webkit-input-placeholder {
+  padding-left: 5px;
+  font-size: 13px;
+  font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
+  color: rgba(167,172,178,0.7);
+
+}
+input::-moz-placeholder {
+  padding-left: 5px;
+  font-size: 13px;
+  font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
+  color: rgba(167,172,178,0.7);
+}
+input::-ms-input-placeholder { 
+  padding-left: 5px;
+  font-size: 13px;
+  font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
+  color: rgba(167,172,178,0.7);
+}
+
+div.acuerdos {
+    height: 150px;
+    border: 1px solid rgb(124,100,44);
+    background: rgba(31,37,44,0.9);
+    padding: 6px;
+    overflow: auto;
+    font-size: 13px;
+    text-align: justify;
+    color: rgba(167,172,178,0.7);;
+    font-family: rgba(31,37,44,0.9);
+    
+}
+.reg-enviar1{
+	height: 29px;
+	font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
+	font-size: 14px;
+	margin:0 auto;
+	padding: 2px;
+	color: rgb(38,38,38);
+	background: rgba(235,219,182,1);
+	background: -webkit-linear-gradient(top,rgba(235,219,182,1), rgba(131,115,77,0.6));
+	background: -moz-linear-gradient(top,rgba(235,219,182,1), rgba(131,115,77,0.6));
+	background: -ms-linear-gradient(top,rgba(235,219,182,1), rgba(131,115,77,0.6));
+	background: -o-linear-gradient(top,rgba(235,219,182,1), rgba(131,115,77,0.6));
+	border:none;
+	border-radius: 3px;
+	box-shadow: 0 0 7px rgb(235,219,182);
+}
+
+input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]::-moz-outer-spin-button,input[type=number]::-moz-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]::-ms-outer-spin-button,input[type=number]::-ms-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*Spam del icono font-awesome Inicio*/
+.add-on{
+	border: 1px solid rgb(124,100,44);
+	border-radius: 2px;
+	background: rgba(235,219,182,1);
+	padding: 0px 4px 4px 4px;
+	margin:1px auto;
+	font-size: 21px;
+	position: relative;
+	text-shadow: 0 1px #fff;
+	background: -webkit-linear-gradient(top,rgba(154,128,69,1), rgba(77,60,21,0.6));
+	background: -moz-linear-gradient(top,rgba(235,219,182,1), rgba(131,115,77,0.6));
+	background: -ms-linear-gradient(top,rgba(235,219,182,1), rgba(131,115,77,0.6));
+	background: -o-linear-gradient(top,rgba(235,219,182,1), rgba(131,115,77,0.6));
+}
+/*spam del icono font-awesome fin*/
+
+/*Fin del Formulario de registro*/
+
+/*Inicio de Verificacion de Correo*/
+
+.img-verificar{
+	margin: 1px auto;
+	width: 180px;
+	height: 180px;
+	border: 1px solid rgb(188,170,125);
+	border-radius: 100px;
+	background: rgb(210,190,139);
+	margin-bottom: 10px;
+}
+p.reg-let{
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+
+.control{
+	text-align: center;
+	margin:2px auto;
+	margin-bottom: 10px;
+	padding: 1px;
+}
+
+/*Fin de inicio de Verificacion de Correo*/
+
+/*Inicio de Completacion de Datos*/
+.m-f {
+	background: rgba(31,37,44,0.9);
+	height: 28px;
+	border: 1px solid rgb(124,100,44);
+	overflow: hidden;
+	padding-left:7px;
+	border-radius: 2px;
+	margin: 0px -1px;
+	font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
+	font-size: 13px;
+	color: rgba(167,172,178,0.7);
+}
+select:focus{
+	outline: none;
+
+}
+.img-verificacion{
+	margin:3px auto;
+	width: 70px;
+	height: 70px;
+}
+/*Fin de inicio de Completacion de Datos*/
+
+/*Inicio de Clases de error de JS*/
+.error{
+	border:2px solid rgba(186,71,74,1);
+}
+.correcto{
+	border:2px solid rgba(41,149,59,1);
+}
+/*Fin de clases de error de JS*/
+/*Inicio de class A para span de icon para informacion*/
+ .tooltip {
+    display: inline-block;
+    position: relative;
+  }
+  .tooltip:hover:after {
+    bottom: 26px;
+    content: attr(title); 
+    left: 20%;
+    position: absolute;
+    z-index: 98;
+    background: rgba(154,128,69,1); 
+    background: -webkit-linear-gradient(top,rgba(154,128,69,1), rgba(77,60,21,0.6));
+	background: -moz-linear-gradient(top,rgba(235,219,182,1), rgba(131,115,77,0.6));
+	background: -ms-linear-gradient(top,rgba(235,219,182,1), rgba(131,115,77,0.6));
+	background: -o-linear-gradient(top,rgba(235,219,182,1), rgba(131,115,77,0.6));
+	box-shadow: 0px 0px 7px rgb(235,219,182);
+    border-radius: 5px;
+    color: #FFF;
+    font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
+    font-size: 12px;
+    padding: 5px 15px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    width: 200px;
+  }
+  .tooltip:hover:before {
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+    border: solid;
+    border-color: rgba(255,255,255,1) transparent;
+    border-width: 6px 6px 0 6px;
+  }
+/*Fin de Class para informacion*/
